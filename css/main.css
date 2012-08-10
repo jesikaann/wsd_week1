@@ -1,0 +1,112 @@
+body {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color:lightpink;
+	margin:0;
+	padding:0;
+}
+#container {
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	background-color:white;
+	position:relative;
+}
+h2 {
+	text-shadow:1px 1px 2px black;
+}
+h1, h2, h3 {
+	color:red;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+header {
+	padding:0 10px;
+}
+header h1 {
+	left:-999px;
+	position:absolute;
+}
+nav {
+	float:right;
+}
+nav ul {
+	width:650px;
+}
+nav li {
+	display:inline-block;
+	width:150px;
+	text-align:center;
+	height:100px;
+	font-size:14px;
+}
+
+
+nav a{
+	display:block;
+	color:red;}
+	
+	nav a:hover {
+		background-color:pink;
+	}
+	
+	nav a:visited {color:purple;
+	}
+	
+section {
+	height:500px;
+	background-color:red;
+	border:medium white solid;
+	opacity:0.8;
+	
+}
+section h1 {
+	color:white;
+	font-size:60px;
+	font-family:Perpetua;
+	float:right;
+	width:500px;
+	}
+#cupcake {
+	float:right;
+	width:300px;
+}
+#maincontent {
+	clear:both;
+	padding:0 10px;
+}
+.cupcake {
+	text-align:justify
+}
+.cupcake ol {
+	width:400px;
+	list-style-type:none;
+}
+#cupcakedirections {
+	-moz-column-count:3;
+}
+#cupcakedirections p {
+	padding:0 5px;
+}
+.frosting {
+	text-align:justify
+}
+.frosting ol {
+	width:400px;
+	list-style-type:none;
+}
+#frostingdirections {
+	-moz-column-count:3;
+}
+#frostingdirections p {
+	padding:0 5px;
+}
+footer {
+	text-align:center;
+	margin-top:40px;
+}
+footer ul {
+	list-style-type:circle
+}
+footer li {
+	display:inline-block;
+	padding-left:15px;
+}
