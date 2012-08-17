@@ -1,112 +1,471 @@
+/*Main CSS*/
 body {
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color:lightpink;
+	font:100%/1.5 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color:#F33;
+	margin:0 auto;
+	padding:0;
+	max-width:960px;
+}
+#container {
+	font-size:1.0625em;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	background-color:#FFF;
+	position:relative;
+}
+h1 {
+	color:#FFF;
+	font-weight:bold;
+	font-size:1.5em;
+}
+p {
+	font-size:1.0625em;
+}
+h2 {
+	text-shadow:1px 1px 2px #666;
+}
+h1, h2, h3 {
+	color:#F33;
+	font-family:'Fredoka One', cursive;
+}
+header {
+	padding:0 1.041666666667%;
+}
+header h1 {
+	font-family:'Fredoka One', cursive;
+	left:-104062.5%;
+	position:absolute;
+}
+/*Nav CSS*/
+nav {
+	float:right;
+	width:67.708333333333%;
 	margin:0;
 	padding:0;
 }
-#container {
-	width:960px;
-	height:auto;
-	margin:0 auto;
-	background-color:white;
-	position:relative;
-}
-h2 {
-	text-shadow:1px 1px 2px black;
-}
-h1, h2, h3 {
-	color:red;
-	font-family:Georgia, "Times New Roman", Times, serif;
-}
-header {
-	padding:0 10px;
-}
-header h1 {
-	left:-999px;
-	position:absolute;
-}
-nav {
-	float:right;
-}
 nav ul {
-	width:650px;
+	max-width:100%;
+	margin:0;
 }
 nav li {
 	display:inline-block;
-	width:150px;
-	text-align:center;
-	height:100px;
-	font-size:14px;
+	width:auto;
+	text-align:right;
+	margin-left:1.0em;
+	height:auto;
+	font-size:1.0625em;
 }
-
-
-nav a{
+nav a {
 	display:block;
-	color:red;}
-	
-	nav a:hover {
-		background-color:pink;
-	}
-	
-	nav a:visited {color:purple;
-	}
-	
-section {
-	height:500px;
-	background-color:red;
-	border:medium white solid;
+	color:#F33;
+}
+nav a:hover {
+	background-color:#F33;
+}
+nav a:visited {
+	color:#609;
+}
+/*Main Content CSS */
+#calltoaction {
+	height:auto;
+	background-image:url(../images/frostingbackground.jpg);
 	opacity:0.8;
-	
+	width:100%;
 }
-section h1 {
+
+#maincupcake_container{width:31.25%;
+}
+
+#maincupcake{
+max-width:100%;}
+
+
+#button{
+	float:right;
+	max-width:100%;
+	position:relative;
+}
+#button h1 {
+	font-family:'Fredoka One', cursive;
 	color:white;
-	font-size:60px;
-	font-family:Perpetua;
-	float:right;
-	width:500px;
-	}
-#cupcake {
-	float:right;
-	width:300px;
+	font-size:3.70em;
 }
+
+/* button 
+
+Source: webdesignerwall.com
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 100%/1.5 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+/* red */
+.red {
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.red:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+/*End of Button
+
+Source:  webdesignerwall.com
+=====================================================================*/
+#cupcake_container, #frosting_container{
+	width:31.25%;
+	float:right;
+	margin-left:30%;}
+
+#cupcake, #frosting {
+	max-width:100%;
+}
+
 #maincontent {
 	clear:both;
-	padding:0 10px;
+	padding:0 1.041666666667%;
 }
-.cupcake {
+.cupcake, .frosting {
 	text-align:justify
 }
-.cupcake ol {
-	width:400px;
+.cupcake ol, .frosting ol {
+	width:41.666666666667%;
 	list-style-type:none;
 }
-#cupcakedirections {
+#cupcakedirections, #frostingdirections {
 	-moz-column-count:3;
+	clear:both;
 }
-#cupcakedirections p {
-	padding:0 5px;
+#cupcakedirections p, #frostingdirections p {
+	padding:0 0.520833333333%;
 }
-.frosting {
-	text-align:justify
+
+
+#frostingimage {
+	max-width:100%;
 }
-.frosting ol {
-	width:400px;
+
+#imagegallery ul{
 	list-style-type:none;
+	width:100%
+	margin:0 auto;
 }
-#frostingdirections {
-	-moz-column-count:3;
+
+#imagegallery li{
+	display:inline;
 }
-#frostingdirections p {
-	padding:0 5px;
+	
+#imageone {
+	max-width:22.703125%;
 }
+
+#imagetwo {
+	max-width:13.28125%;
+}
+
+#imagethree {
+	max-width:24.285416666667%;
+}
+
+#imagefour {
+	max-width:31.336458333333%;
+}
+	
 footer {
 	text-align:center;
-	margin-top:40px;
+	
 }
+
 footer ul {
-	list-style-type:circle
+	list-style-type:circle;
 }
+
 footer li {
 	display:inline-block;
-	padding-left:15px;
+	padding-left:1.5625%;
+}
+
+/*Media Queries*/
+
+/*Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width:768px) and (max-width:959px) {
+body {
+	font:100%/1.2 "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	min-width:768px;
+	max-width:959px;
+}
+#container {
+	width:90%;
+	margin:0 auto;
+	padding:0 .5em;
+	font-size:1.0em;
+}
+#cupcake_container, #frosting_container {
+	float:right;
+	max-width:31.25%;
+}
+.cupcake ol, .frosting ol {
+	max-width:41.666666666667%;
+	list-style-type:none;
+}
+h2 {
+	font-size:1.25em;
+}
+h3 {
+	font-size:1.125em;
+}
+
+nav {
+	float:right;
+	width:62%;
+	margin:0;
+	padding:0;
+}
+nav ul{
+	max-width:100%;
+	margin:0;
+}
+nav li {
+	font-size:1.0625em;
+	display:inline-block;
+	width:auto;
+	height:auto;
+	text-align:right;
+	margin-left:.5em;
+}
+#maincupcake_container {
+	width:30.25%;
+}
+#maincupcake {
+	max-width:100%;
+}
+
+#button{
+	float:right;
+	max-width:100%;
+}
+
+#button h1 {
+	font-size:2.75em;
+	
+}
+}
+/*Mobile Landscape Size to Tablet Portrait (devices and browsers */
+@media only screen and (min-width:480px) and (max-width:767px){
+body {
+	font:100%/1.1 "Verdana, Geneva, sans-serif";
+	min-width:480px;
+	max-width:767px;
+}
+#container {
+	width:100%;
+	margin:0;
+	padding:0 .5em;
+	font-size:0.875em;
+}
+#cupcake_container, #frosting_container {
+	display:none
+}
+h2 {
+	font-size:1.125em;
+}
+h3 {
+	font-size:1.00em;
+}
+header {
+	max-width:100%;
+	padding:0;
+}
+#button{
+	float:right;
+	max-width:100%;
+}
+
+#button h1 {
+	font-size:2.00em;
+	
+}
+nav {
+	float:right;
+	max-width:65%;
+	min-width:90%;
+	margin:0;
+	padding:0;
+}
+nav ul{
+	max-width:100%;
+	margin:0;
+}
+nav li {
+	font-size:1.0625em;
+	display:inline-block;
+	width:auto;
+	height:auto;
+	text-align:right;
+	margin-left:1.0em;
+}
+.cupcake, .frosting {
+	width:90%;
+}
+.cupcake ol, .frosting ol {
+	width:75%;
+}
+#cupcakedirections, #frostingdirections {
+	clear:both;
+	-moz-column-count:2;
+}
+#imagegallery ul {
+	width:100%;
+	margin:0 0;
+}
+#imagegallery li {
+	display:inline;
+}
+#imageone {
+	max-width:45.40625%;
+}
+
+#imagetwo {
+	max-width:26.56246%;
+}
+
+#imagethree {
+	max-width:48.570833333334%;
+}
+
+#imagefour {
+	max-width:62.672916666666%;
+}
+footer {
+	text-align:left;
+	clear:both;
+}
+footer ul {
+	list-style-type:none;
+}
+footer li {
+	display:block;
+	width:90%;
+	padding-left:0;
+}
+}
+
+/*Mobile Portrait Size to Mobile Landsape Size (devices and browsers)*/
+@media only screen and (max-width:479px) {
+body {
+	font:100%/1.0 "Verdana, Geneva, sans-serif";
+	max-width:479px;
+}
+#container {
+	width:100%;
+	font-size:0.750em;
+}
+h2 {
+	font-size:1.125em;
+}
+h3 {
+	font-size:1.000em;
+}
+#maincupcake_container, #cupcake_container, #frosting_container {
+	display:none;
+}
+header {
+	max-width:90%;
+	padding:0 .5em;
+}
+header h1 {
+	left:0;
+	position:relative;
+	font-size:2.75em;
+}
+nav {
+	float:none;
+}
+nav ul {
+	width:80%;
+}
+nav li {
+	display:block;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:.5em .5em;
+	text-align:left;
+	font-size:1.5em;
+}
+nav a {
+	display:block;
+	color:red;
+}
+nav a:hover {
+	background-color:pink;
+}
+nav a:visited {
+	color:purple;
+}
+#calltoaction {
+	display:none;
+}
+.cupcake {
+	clear:both;
+}
+.cupcake ol, .frosting ol {
+	width:50%;
+}
+#frostingdirections, #cupcakedirections {
+	-moz-column-count:1;
+	width:90%;
+	text-align:justify;
+}
+#imagegallery ul {
+	display:none;
+}
+footer {
+	text-align:left;
+}
+footer ul {
+	list-style-type:none;
+}
+footer li {
+	display:block;
+	width:90%;
+	padding-left:0;
+}
 }
